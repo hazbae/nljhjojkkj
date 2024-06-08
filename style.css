@@ -25,7 +25,7 @@
   --dl-space-space-threeunits: 48px;
   --dl-color-theme-neutral-dark: #191818;
   --dl-radius-radius-cardradius: 8px;
-  --dl-color-theme-neutral-light: #FBFAF9;
+  --dl-color-theme-neutral-dark: #FBFAF9;
   --dl-radius-radius-imageradius: 8px;
   --dl-radius-radius-inputradius: 24px;
   --dl-radius-radius-buttonradius: 24px;
@@ -38,7 +38,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
 }
 .input {
   color: var(--dl-color-theme-neutral-dark);
@@ -47,7 +47,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
 }
 .textarea {
   color: var(--dl-color-theme-neutral-dark);
@@ -56,7 +56,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
 }
 .list {
   width: 100%;
@@ -83,7 +83,7 @@
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-inputradius);
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
 }
 .thq-input:focus {
   outline: 1px solid var(--dl-color-theme-primary1);
@@ -302,7 +302,7 @@
   border-radius: var(--dl-radius-radius-inputradius);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-halfunit);
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
   background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg width%3D%2220%22 height%3D%2220%22 xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 20 20%22 fill%3D%22%23000%22%3E%3Cpath d%3D%22M4.293 7.293a1 1 0 011.414 0L10 11.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z%22/%3E%3C/svg%3E');
   background-repeat: no-repeat;
   background-position: right 8px center;
@@ -452,7 +452,7 @@
 .thq-button-animated:before {
   top: 0;
   left: -20%;
-  color: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-dark);
   width: 200%;
   height: 101%;
   content: "";
@@ -466,7 +466,7 @@
   transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
 }
 .thq-button-animated:hover::before {
-  color: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-dark);
   z-index: -1;
   transform: scaleX(1);
 }
